@@ -14,6 +14,8 @@
 		A3A1C59A1EEC4D1200CEA687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A1C5981EEC4D1200CEA687 /* LaunchScreen.storyboard */; };
 		A3A1C5A51EEC4D1200CEA687 /* TabViewTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A1C5A41EEC4D1200CEA687 /* TabViewTestingTests.swift */; };
 		A3A1C5B01EEC4D1200CEA687 /* TabViewTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A1C5AF1EEC4D1200CEA687 /* TabViewTestingUITests.swift */; };
+		A3A1C5BE1EEC58DF00CEA687 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A1C5BD1EEC58DF00CEA687 /* TabViewController.swift */; };
+		A3A1C5C01EEC596E00CEA687 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A1C5BF1EEC596E00CEA687 /* Bar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A3A1C5AB1EEC4D1200CEA687 /* TabViewTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabViewTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A1C5AF1EEC4D1200CEA687 /* TabViewTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewTestingUITests.swift; sourceTree = "<group>"; };
 		A3A1C5B11EEC4D1200CEA687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3A1C5BD1EEC58DF00CEA687 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		A3A1C5BF1EEC596E00CEA687 /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				A3A1C58F1EEC4D1200CEA687 /* AppDelegate.swift */,
 				A3A1C5911EEC4D1200CEA687 /* ViewController.swift */,
+				A3A1C5BF1EEC596E00CEA687 /* Bar.swift */,
 				A3A1C5931EEC4D1200CEA687 /* Main.storyboard */,
+				A3A1C5BD1EEC58DF00CEA687 /* TabViewController.swift */,
 				A3A1C5961EEC4D1200CEA687 /* Assets.xcassets */,
 				A3A1C5981EEC4D1200CEA687 /* LaunchScreen.storyboard */,
 				A3A1C59B1EEC4D1200CEA687 /* Info.plist */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A1C5BE1EEC58DF00CEA687 /* TabViewController.swift in Sources */,
+				A3A1C5C01EEC596E00CEA687 /* Bar.swift in Sources */,
 				A3A1C5921EEC4D1200CEA687 /* ViewController.swift in Sources */,
 				A3A1C5901EEC4D1200CEA687 /* AppDelegate.swift in Sources */,
 			);
